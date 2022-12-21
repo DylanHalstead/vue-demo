@@ -15,7 +15,7 @@
     </div>
     <div class="form-control form-control-check">
       <label>Set Reminder</label>
-      <input type="checkbox" v-reminder="reminder" name="reminder" />
+      <input type="checkbox" v-model="reminder" name="reminder" />
     </div>
 
     <input type="submit" value="Save Task" class="btn btn-block" />
